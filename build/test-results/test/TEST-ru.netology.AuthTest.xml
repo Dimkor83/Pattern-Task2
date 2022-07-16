@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.AuthTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-16T09:09:13" hostname="LAPTOP-67SQ4OQV" time="6.618">
+<testsuite name="ru.netology.AuthTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-16T09:19:01" hostname="LAPTOP-67SQ4OQV" time="8.809">
   <properties/>
-  <testcase name="testActiveUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="3.477"/>
-  <testcase name="testBlockedUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="0.827"/>
-  <testcase name="testBlockedUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.777"/>
-  <testcase name="testBlockedUser()" classname="ru.netology.AuthTest" time="0.657"/>
-  <testcase name="testActiveUser()" classname="ru.netology.AuthTest" time="0.488"/>
-  <testcase name="testActiveUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.39"/>
+  <testcase name="testActiveUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="4.766"/>
+  <testcase name="testBlockedUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="0.875"/>
+  <testcase name="testBlockedUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.869"/>
+  <testcase name="testBlockedUser()" classname="ru.netology.AuthTest" time="0.874"/>
+  <testcase name="testActiveUser()" classname="ru.netology.AuthTest" time="0.535"/>
+  <testcase name="testActiveUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.888"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:9999/api/system/users
 Proxy:			<none>
@@ -15,13 +15,13 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json; charset=UTF-8
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Curt Kemmer",
-    "password": "647hdf7ufj1smh0",
+    "login": "Leon Marquardt",
+    "password": "2vxig8vxmnz1",
     "status": "active"
 }
 Request method:	POST
@@ -32,13 +32,13 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json; charset=UTF-8
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Linwood Klocko",
-    "password": "e5e4gfgchmhp6sa",
+    "login": "Beula Wunsch",
+    "password": "plebzoy9ts2",
     "status": "blocked"
 }
 Request method:	POST
@@ -49,13 +49,13 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json; charset=UTF-8
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Miss Mitchell Armstrong",
-    "password": "igv64xiaz",
+    "login": "Emilio Schaefer",
+    "password": "m9yigs3e",
     "status": "blocked"
 }
 Request method:	POST
@@ -66,13 +66,13 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json; charset=UTF-8
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Ralph Leffler",
-    "password": "2n8updq2",
+    "login": "Lu Mayer",
+    "password": "bhb1bbhapak0sz",
     "status": "blocked"
 }
 Request method:	POST
@@ -83,13 +83,13 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json; charset=UTF-8
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Ivelisse Rau",
-    "password": "e6r7sjutkvw3",
+    "login": "Marty McGlynn",
+    "password": "3mmdh8la",
     "status": "active"
 }
 Request method:	POST
@@ -100,24 +100,32 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json; charset=UTF-8
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Pamila Pagac",
-    "password": "drjih491id4",
+    "login": "Kareen Harvey",
+    "password": "8oibwe70bvf",
     "status": "active"
 }
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63292
+июл. 16, 2022 1:19:01 PM org.openqa.selenium.remote.RemoteWebDriver startSession
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [acceptSslCerts, handlesAlerts, javascriptEnabled, takesScreenshot]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59416
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 16, 2022 1:09:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
+июл. 16, 2022 1:19:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+июл. 16, 2022 1:19:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [acceptSslCerts, handlesAlerts, javascriptEnabled, takesScreenshot]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+июл. 16, 2022 1:19:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+июл. 16, 2022 1:19:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
 </testsuite>
