@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.AuthTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-16T08:58:46" hostname="LAPTOP-67SQ4OQV" time="9.071">
+<testsuite name="ru.netology.AuthTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-16T09:09:13" hostname="LAPTOP-67SQ4OQV" time="6.618">
   <properties/>
-  <testcase name="testActiveUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="5.426"/>
-  <testcase name="testBlockedUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="0.924"/>
-  <testcase name="testBlockedUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.882"/>
-  <testcase name="testBlockedUser()" classname="ru.netology.AuthTest" time="0.726"/>
-  <testcase name="testActiveUser()" classname="ru.netology.AuthTest" time="0.613"/>
-  <testcase name="testActiveUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.498"/>
+  <testcase name="testActiveUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="3.477"/>
+  <testcase name="testBlockedUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="0.827"/>
+  <testcase name="testBlockedUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.777"/>
+  <testcase name="testBlockedUser()" classname="ru.netology.AuthTest" time="0.657"/>
+  <testcase name="testActiveUser()" classname="ru.netology.AuthTest" time="0.488"/>
+  <testcase name="testActiveUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.39"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:9999/api/system/users
 Proxy:			<none>
@@ -20,8 +20,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Ms. Judi O'Hara",
-    "password": "m62z5aavgoa41m",
+    "login": "Curt Kemmer",
+    "password": "647hdf7ufj1smh0",
     "status": "active"
 }
 Request method:	POST
@@ -37,8 +37,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Evan Daugherty",
-    "password": "1yvshgnomhxpwa",
+    "login": "Linwood Klocko",
+    "password": "e5e4gfgchmhp6sa",
     "status": "blocked"
 }
 Request method:	POST
@@ -54,8 +54,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Christeen McKenzie",
-    "password": "dcuyodjvf",
+    "login": "Miss Mitchell Armstrong",
+    "password": "igv64xiaz",
     "status": "blocked"
 }
 Request method:	POST
@@ -71,8 +71,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Benjamin O'Connell",
-    "password": "wwugxj3m",
+    "login": "Ralph Leffler",
+    "password": "2n8updq2",
     "status": "blocked"
 }
 Request method:	POST
@@ -88,8 +88,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Zulema Mann",
-    "password": "qyndtohcw5bkrsv",
+    "login": "Ivelisse Rau",
+    "password": "e6r7sjutkvw3",
     "status": "active"
 }
 Request method:	POST
@@ -105,19 +105,19 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "Jacqueline Zieme",
-    "password": "krpavlyzl66",
+    "login": "Pamila Pagac",
+    "password": "drjih491id4",
     "status": "active"
 }
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 14130
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63292
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-июл. 16, 2022 12:58:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+июл. 16, 2022 1:09:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
