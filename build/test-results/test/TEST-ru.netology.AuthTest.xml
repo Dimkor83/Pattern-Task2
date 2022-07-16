@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.AuthTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-16T08:46:11" hostname="LAPTOP-67SQ4OQV" time="7.182">
+  <properties/>
+  <testcase name="testActiveUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="3.379"/>
+  <testcase name="testBlockedUserWhenIncorrectLogin()" classname="ru.netology.AuthTest" time="0.823"/>
+  <testcase name="testBlockedUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.775"/>
+  <testcase name="testBlockedUser()" classname="ru.netology.AuthTest" time="0.78"/>
+  <testcase name="testActiveUser()" classname="ru.netology.AuthTest" time="0.68"/>
+  <testcase name="testActiveUserWhenIncorrectPassword()" classname="ru.netology.AuthTest" time="0.743"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Stacy Glover",
+    "password": "agke30d9zz7tvqa",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Ms. Estefana Fay",
+    "password": "4lapd9dsggfoox",
+    "status": "blocked"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Dallas Rice",
+    "password": "jx48vn6hw",
+    "status": "blocked"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Annita Mraz",
+    "password": "nzbk2v8pi",
+    "status": "blocked"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Bill Prohaska",
+    "password": "4taqd04zfvsvhpv",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Ezekiel Hills Jr.",
+    "password": "7ijq6oz0k",
+    "status": "active"
+}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 28044
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл. 16, 2022 12:46:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
